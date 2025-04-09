@@ -1,11 +1,47 @@
-# ================
-# Project Dependencies
-# ================
+Project Overview
+This project is an integrated solution combining ​​Augmented Reality (AR) visualization​​ with ​​high-performance medical image processing​​, designed to bridge real-time 3D interaction and computational analysis. Built on Unity for immersive user experience and C++ for backend computation, this system enables:
 
+🎮 ​​Mixed Reality Interaction​​: Leveraging Vuforia and MRTK 2.8.3 for holographic object manipulation
+🧠 ​​Real-time Image Analysis​​: Powered by ITK/VTK for DICOM/NIfTI data processing
+🌐 ​​Distributed Computing​​: ZeroMQ-based network architecture for multi-device communication
+🖥️ ​​Cross-platform GUI​​: Qt 6.8.2 interface for desktop control panel
+​​Key Innovation​​: The unique integration of AR tracking (Vuforia) with medical imaging pipelines (ITK/VTK) allows surgeons to visualize 3D reconstructed anatomy superimposed on physical environments, with sub-millimetre precision.
+
+Core Components
+​​AR Client (Unity)​​
+Vuforia-based marker detection
+MRTK-controlled holographic UI
+Real-time pose streaming via NDI
+​​Compute Server (C++)​​
+Eigen-optimized matrix operations
+ITK segmentation & VTK surface rendering
+Multi-threaded task scheduler
+​​Network Layer​​
+ZeroMQ PUB/SUB pattern for 10ms latency data transfer
+Protocol Buffers for message serialization
+
+Reproducibility Statement
+To ensure transparency and reproducibility:
+
+​​Full source code​​ of the proposed algorithms is permanently available at:
+https://github.com/YuHuiWang1999/Five-AR-visualization-protocols-for-PSP
+
+If you use this work in your research, please cite:
+@Article{Wang 2025VisualComputer,
+  title={Enhanced In Situ Visualization for Robot-Assisted Pedicle Screw Placement: A Comparative Analysis of AR Guidance Concepts}, 
+  author={Yuhui Wang, Chuanba Liu, Lu Xue, Zhiyuan He and Tao Sun},
+  journal={The Visual Computer},
+  year={2025},
+  volume={00},
+  pages={00},
+  doi={10.0000/0000},
+  url={https://github.com/YuHuiWang1999/Five-AR-visualization-protocols-for-PSP}
+}
+
+# ------------------
+# Project Dependencies
 # ------------------
 # Unity Dependencies
-# ------------------
-
 1. Vuforia Engine
    - Purpose: Core SDK for AR development
    - Installation:
@@ -21,11 +57,7 @@
        "https://github.com/microsoft/MixedRealityToolkit-Unity.git?path=Assets/MRTK#v2.8.3"
    - Note: Requires Unity 2019.4+
 
-
-# -----------------
 # C++ Dependencies
-# -----------------
-
 3. ConnectNDI
    - Purpose: Network Device Interface communication
    - Installation:
