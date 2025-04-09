@@ -11,9 +11,8 @@ This project is an integrated solution combining ​​Augmented Reality (AR) vi
 
 ​​Key Innovation​​: The unique integration of AR tracking (Vuforia) with medical imaging pipelines (ITK/VTK) allows surgeons to visualize 3D reconstructed anatomy superimposed on physical environments, with sub-millimetre precision.
 
-Core Components
 
-​​AR Client (Unity)​​
+#  **​​AR Client (Unity)​​**
 
 Vuforia-based marker detection
 
@@ -21,7 +20,7 @@ MRTK-controlled holographic UI
 
 Real-time pose streaming via NDI
 
-​​Compute Server (C++)​​
+#  **​​Compute Server (C++)​​**
 
 Eigen-optimized matrix operations
 
@@ -29,29 +28,11 @@ ITK segmentation & VTK surface rendering
 
 Multi-threaded task scheduler
 
-​​Network Layer​​
+#  **​​Network Layer​​**
 
 ZeroMQ PUB/SUB pattern for 10ms latency data transfer
 
 Protocol Buffers for message serialization
-
-Reproducibility Statement
-To ensure transparency and reproducibility:
-
-​​Full source code​​ of the proposed algorithms is permanently available at:
-https://github.com/YuHuiWang1999/Five-AR-visualization-protocols-for-PSP
-
-If you use this work in your research, please cite:
-@Article{Wang 2025VisualComputer,
-  title={Enhanced In Situ Visualization for Robot-Assisted Pedicle Screw Placement: A Comparative Analysis of AR Guidance Concepts},   
-  author={Yuhui Wang, Chuanba Liu, Lu Xue, Zhiyuan He and Tao Sun},  
-  journal={The Visual Computer},  
-  year={2025},  
-  volume={00},  
-  pages={00},  
-  doi={10.0000/0000},  
-  url={https://github.com/YuHuiWang1999/Five-AR-visualization-protocols-for-PSP}
-}
 
 
 # ------------------
@@ -128,21 +109,17 @@ If you use this work in your research, please cite:
        - Qt Creator
        - Qt Network Authorization
      - Set environment variable: QT_DIR=<installation_path>
+# ------------------
+# **Reproducibility Statement**
+# ------------------
+To ensure transparency and reproducibility:​​Full source code​​ of the proposed algorithms is permanently available at:
+https://github.com/YuHuiWang1999/Five-AR-visualization-protocols-for-PSP
 
-
-# ======================
-# Package Manager Option
-# ======================
-For C++ dependencies, consider using vcpkg:
-vcpkg install eigen3 itk vtk cppzmq
-
-# ====================
-# CMake Configuration
-# ====================
-Add to CMakeLists.txt:
-find_package(ITK REQUIRED)
-find_package(VTK REQUIRED)
-find_package(Qt6 COMPONENTS Core Gui Widgets REQUIRED)
+If you use this work in your research, please cite:
+@Article{Wang 2025VisualComputer,
+  title={Enhanced In Situ Visualization for Robot-Assisted Pedicle Screw Placement: A Comparative Analysis of AR Guidance Concepts},  author={Yuhui Wang, Chuanba Liu, Lu Xue, Zhiyuan He and Tao Sun}, journal={The Visual Computer}, year={2025},  volume={00},  pages={00}, doi={10.0000/0000},  
+  url={https://github.com/YuHuiWang1999/Five-AR-visualization-protocols-for-PSP}
+}
 
 Notes:​​
 
