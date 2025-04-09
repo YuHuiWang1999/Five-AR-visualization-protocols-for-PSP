@@ -28,13 +28,21 @@ https://github.com/YuHuiWang1999/Five-AR-visualization-protocols-for-PSP
 
 If you use this work in your research, please cite:
 @Article{Wang 2025VisualComputer,
+
   title={Enhanced In Situ Visualization for Robot-Assisted Pedicle Screw Placement: A Comparative Analysis of AR Guidance Concepts}, 
+  
   author={Yuhui Wang, Chuanba Liu, Lu Xue, Zhiyuan He and Tao Sun},
+  
   journal={The Visual Computer},
+  
   year={2025},
+  
   volume={00},
+  
   pages={00},
+  
   doi={10.0000/0000},
+  
   url={https://github.com/YuHuiWang1999/Five-AR-visualization-protocols-for-PSP}
 }
 
