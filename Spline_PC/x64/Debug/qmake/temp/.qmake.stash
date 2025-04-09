@@ -1,0 +1,59 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 199711L
+QMAKE_CXX.QMAKE_MSC_VER = 1916
+QMAKE_CXX.QMAKE_MSC_FULL_VER = 191627048
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_MSC_VER \
+    QMAKE_MSC_FULL_VER
+QMAKE_CXX.INCDIRS = \
+    "C:\\Program Files\\PCL 1.8.1\\include\\pcl-1.8" \
+    "C:\\Program Files\\PCL 1.8.1\\3rdParty\\Boost\\include\\boost-1_64" \
+    "C:\\Program Files\\PCL 1.8.1\\3rdParty\\VTK\\include" \
+    "C:\\Program Files\\PCL 1.8.1\\3rdParty\\Eigen\\eigen3" \
+    "C:\\Program Files\\PCL 1.8.1\\3rdParty\\FLANN\\include" \
+    "C:\\Program Files\\PCL 1.8.1\\3rdParty\\Qhull\\include" \
+    "C:\\Program Files\\OpenNI2\\Include" \
+    C:\\Users\\Administrator\\Desktop\\whl\\chengxuW\\whl\\eigen-3.3.9\\eigen-3.3.9 \
+    C:\\vtk8\\install\\include\\vtk-8.2 \
+    C:\\Users\\Administrator\\Desktop\\whl\\chengxuW\\whl\\ConnectNDI\\Debug\\include \
+    C:\\Users\\Administrator\\Desktop\\whl\\chengxuW\\AR2 \
+    C:\\Users\\Administrator\\miniconda3\\envs\\gnn\\include \
+    C:\\Users\\Administrator\\Desktop\\whl\\chengxuW\\whl\\opencv\\opencv\\build\\include \
+    C:\\Users\\Administrator\\Desktop\\whl\\chengxuW\\whl\\opencv\\opencv\\build\\include\\opencv2 \
+    C:\\NDI\\CombinedAPIsample\\library\\include \
+    C:\\NDI\\CombinedAPIsample\\library\\src\\include \
+    C:\\vtk8\\install\\include\\vtk-8.2 \
+    C:\\itk5.0.0\\include\\ITK-5.0 \
+    D:\\vs\\VC\\Tools\\MSVC\\14.16.27023\\include \
+    D:\\vs\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\include \
+    D:\\vs\\VC\\Auxiliary\\VS\\include \
+    "D:\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt" \
+    D:\\vs\\VC\\Auxiliary\\VS\\UnitTest\\include \
+    "D:\\Windows Kits\\10\\Include\\10.0.20348.0\\um" \
+    "D:\\Windows Kits\\10\\Include\\10.0.20348.0\\shared" \
+    "D:\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt" \
+    "D:\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um"
+QMAKE_CXX.LIBDIRS = \
+    "C:\\Program Files\\PCL 1.8.1\\lib" \
+    "C:\\Program Files\\PCL 1.8.1\\3rdParty\\VTK\\lib" \
+    "C:\\Program Files\\PCL 1.8.1\\3rdParty\\Qhull\\lib" \
+    "C:\\Program Files\\PCL 1.8.1\\3rdParty\\Boost\\lib" \
+    "C:\\Program Files\\PCL 1.8.1\\3rdParty\\FLANN\\lib" \
+    "C:\\Program Files\\OpenNI2\\Lib" \
+    C:\\Users\\Administrator\\Desktop\\whl\\chengxuW\\whl\\ConnectNDI\\Debug\\lib \
+    C:\\vtk8\\install\\lib \
+    C:\\Users\\Administrator\\miniconda3\\envs\\gnn\\libs \
+    C:\\Users\\Administrator\\Desktop\\whl\\chengxuW\\whl\\opencv\\opencv\\build\\x64\\vc15\\lib \
+    C:\\vtk8\\install\\lib \
+    C:\\itk5.0.0\\bin \
+    C:\\vtk8\\install\\bin \
+    D:\\vs\\VC\\Tools\\MSVC\\14.16.27023\\lib\\x64 \
+    D:\\vs\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\lib\\x64 \
+    D:\\vs\\VC\\Auxiliary\\VS\\lib\\x64 \
+    "D:\\Windows Kits\\10\\lib\\10.0.20348.0\\ucrt\\x64" \
+    D:\\vs\\VC\\Auxiliary\\VS\\UnitTest\\lib \
+    "D:\\Windows Kits\\10\\lib\\10.0.20348.0\\um\\x64" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\lib\\um\\x64" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Lib\\um\\x64"

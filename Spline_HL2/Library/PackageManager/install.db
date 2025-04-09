@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.microsoft.mixedreality.openxr": {
+      "tarball": {
+        "hash": "dfc0305df3e4",
+        "mtime": 1680781756826,
+        "size": 9382536,
+        "localPath": "D:\\unity\\project\\MyMRTK-2\\Packages\\MixedReality\\com.microsoft.mixedreality.openxr-1.8.0.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.foundation": {
+      "tarball": {
+        "hash": "f2323a9b7aec",
+        "mtime": 1678000528013,
+        "size": 11691469,
+        "localPath": "D:\\unity\\project\\MyMRTK-2\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.foundation-2.8.3.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.standardassets": {
+      "tarball": {
+        "hash": "aab256284dc6",
+        "mtime": 1678000393952,
+        "size": 5328617,
+        "localPath": "D:\\unity\\project\\MyMRTK-2\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.standardassets-2.8.3.tgz"
+      }
+    },
+    "com.ptc.vuforia.engine": {
+      "tarball": {
+        "hash": "6952f4478255",
+        "mtime": 1695902437000,
+        "size": 140297198,
+        "localPath": "D:\\unity\\project\\MyMRTK-2\\Packages\\com.ptc.vuforia.engine-10.18.4.tgz"
+      }
+    }
+  }
+}

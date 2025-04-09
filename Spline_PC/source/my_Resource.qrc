@@ -1,0 +1,51 @@
+<RCC>
+  <qresource prefix="/new/prefix1">
+    <file>state03.png</file>
+    <file>US0.png</file>
+    <file>US1.png</file>
+    <file>state02.png</file>
+    <file>women02.png</file>
+    <file>spline_X0.png</file>
+    <file>spline_L0.png</file>
+    <file>spline_L1.png</file>
+    <file>spline_X1.png</file>
+    <file>spline_L2.png</file>
+    <file>spline_X2.png</file>
+    <file>background01.png</file>
+    <file>tool_clicked1.png</file>
+    <file>title.png</file>
+    <file>doctor.png</file>
+    <file>min.png</file>
+    <file>set .png</file>
+    <file>unfold.png</file>
+    <file>statelan00.png</file>
+    <file>state00.png</file>
+    <file>modleunvisable.png</file>
+    <file>modlevisable.png</file>
+    <file>delete.png</file>
+    <file>add.png</file>
+    <file>tool_clicked0.png</file>
+    <file>tool_defult0.png</file>
+    <file>tool_hover0.png</file>
+    <file>yes.png</file>
+    <file>probe0.png</file>
+    <file>probe1.png</file>
+    <file>spline0.png</file>
+    <file>spline1.png</file>
+    <file>cube0.png</file>
+    <file>cube1.png</file>
+    <file>drill0.png</file>
+    <file>drill1.png</file>
+    <file>Line .png</file>
+    <file>women00.png</file>
+    <file>women01.png</file>
+    <file>patientnumber.svg</file>
+    <file>man.png</file>
+    <file>state01.png</file>
+    <file>man00.png</file>
+    <file>LOGO.png</file>
+    <file>close.png</file>
+    <file>man01.png</file>
+    <file>man02.png</file>
+  </qresource>
+</RCC>

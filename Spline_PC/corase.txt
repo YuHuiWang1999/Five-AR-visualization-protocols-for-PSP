@@ -1,0 +1,31 @@
+M_Register_is 0.0125832      
+
+M_Register_is -0.0121259      
+
+M_Register_is 0.999847      
+
+M_Register_is -129.857      
+
+M_Register_is -0.0148091      
+
+M_Register_is -0.999819      
+
+M_Register_is -0.0119392      
+
+M_Register_is 203.403      
+
+M_Register_is 0.999811      
+
+M_Register_is -0.0146566      
+
+M_Register_is -0.0127605      
+
+M_Register_is 81.3098      
+
+M_Register_is 0      
+
+M_Register_is 0      
+
+M_Register_is 0      
+
+M_Register_is 1    
